@@ -415,12 +415,6 @@ img {
     width: 80%;
   }
 
-  /*work*/
-  .work_imgs_item,
-  .work_imgs_item a {
-    width: 100%;
-  }
-
   /*skills*/
   .skills_imgs_item {
     width: 40%;
@@ -439,7 +433,7 @@ img {
   .sns_lists_item {
     width: 100%;
   }
-  
+
   .sns_lists_item a {
     font-size: 50px;
   }
