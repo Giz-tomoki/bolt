@@ -133,13 +133,10 @@ img {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 40px 0 90px;
+  margin-top: 40px;
 }
-.work_imgs_item {
+.work_imgs_item:not(:nth-child(3n+1)){
   margin-left: 100px;
-}
-.work_imgs_item:nth-child(3n+1) {
-  margin-left: 0;
 }
 .work_imgs_item:nth-child(n+4) {
   margin-top: 80px;
@@ -155,6 +152,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  margin-top: 90px;
 }
 .work_access_text {
   width: 50%;
