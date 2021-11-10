@@ -18,7 +18,6 @@ a {
 }
 
 img {
-  width: 100%;
   vertical-align: bottom;
 }
 
@@ -139,10 +138,6 @@ img {
   width: 16%;
 }
 
-.about_img img{
-  width: 100%;
-}
-
 .about_text {
   margin-left: 120px;
   width: 60%;
@@ -259,7 +254,7 @@ img {
   text-align: right;
 }
 
-/*タブレット用（1199px以下）*/
+/* タブレット用 */
 @media screen and ( max-width:1199px ) {
   .inner {
     width: 97%;
@@ -321,8 +316,7 @@ img {
   }
 
   .work_access_button {
-    display: inline-block;
-    margin: 40px auto 0;
+    margin: 40px 0 0;
   }
 
   /*skills*/
@@ -340,7 +334,7 @@ img {
   }
 }
 
-/*スマートフォン用（767px以下）*/
+/* スマートフォン用 */
 @media screen and ( max-width:767px ) {
   /*main*/
   .main {
@@ -409,6 +403,7 @@ img {
   /*about*/
   .about_img {
     width: 70%;
+    text-align: center;
   }
 
   .about_text {
